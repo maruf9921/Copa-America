@@ -6,18 +6,42 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 h1{
     line-height: 80px;
     font-size: 64px;
     color: white;
     margin-bottom: 27px;
 }
+h2{
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 8px;
+}
+h3{
+    font-size: 28px;
+    line-height: 40px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* ---------------------------------------------- Top Section --------------------------------------- */
+
 .top-banner{
     background-color: #2D25A0;
     width: 100%;
-    height: 677px;
-    display: flex; 
+    height: 677px; 
 }
 .banner{
     width: 50%;
@@ -43,3 +67,82 @@ h1{
 .fa-arrow-right{
     padding-left: 10px;
 }
+
+
+/* ---------------------------------------------- Blogs Section --------------------------------------- */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 70px;
+    margin-bottom: 165px;  
+}
+.blog{
+    width: 330px;
+    height: 474px;
+    box-shadow: 10px 10px 20px grey; 
+    
+}
+.blog img{
+    width: 300px;
+    height: 256px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.blog-summery{
+    padding-left: 16px;
+    padding-right: 10px;
+    padding-bottom: 33px;
+}
+
+/* ---------------------------------------------- High Lights Section --------------------------------------- */
+
+.high-lights{
+    display: flex;
+    padding-bottom: 158px;
+}
+.high-light-2021{
+    width: 50%;
+    margin-left: 182px;
+    
+}
+.high-light-info{
+    width: 537px;
+    height: 309px;
+}
+.high-light-2021 p{
+    margin-bottom: 24px;
+}
+.high-lights img{
+    width: 567px;
+    height: 427px;
+}
+
+
+/* ---------------------------------------------- Footer --------------------------------------- */
+
+
+.footer-image img{
+    width: 483.87px;
+    height: 110px;
+}
+
+.fab{
+    font-size: 32px;
+    color: #969BAB;
+    padding: 14px;
+}
+.icon-family{
+    padding-left: 139px;
+}
+.icon-family p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 8px;
+    margin-bottom: 63px;
+}
+
+/* ------------------------------------------------Media Queries----------------------------------------- */
+
+/* -------Mobile Devices------- */
+
